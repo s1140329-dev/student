@@ -1,15 +1,17 @@
-
-#include <iostream>
+#include <iostream>  
+#include <string>    
 using namespace std;
-int main()
-{
-    cout << "1. 快樂星球" << endl;
-    cout << "2. 快樂 星球" << endl;
-    cout << "3. 快樂\t星球" << endl;
-    cout << "4. 快樂\n星球" << endl;
-    cout << "5. \"快樂星球\"" << endl;
-    cout << "6. \'快樂星球\'" << endl;
-    cout << "7. \\快樂星球\\" << endl;
+
+int main() {
+    string name; 
+    int a, b;
+    
+    cout << "請輸入你的名字: ";
+    cin >> name;
+    cout << "你好, " << name << "!" << endl;  
+    cout << "請輸入兩個數字, 用空白隔開: ";
+    cin >> a >> b;  
+    cout << "你輸入的是: " << a << " 和 " << b << endl;  
 
     return 0;
 }
